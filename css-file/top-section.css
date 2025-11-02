@@ -66,13 +66,21 @@ header{display: flex;
 .navbar{display: flex;
 flex-direction: column;
 align-items: flex-end;
-margin-top: 45px;
+margin-top: 30px;
 }
 nav{display: flex;
 flex-direction: column;
 align-items: center;
 }
-.navbar-menu .fa-bars{font-size: 20px;}
+.navbar-menu{width: 50px;
+height: 41px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid #06C167;}
+.navbar-menu .fa-bars{
+    color: #06C167;
+    font-size: 20px;}
 .nav-items{display: none;
 }
 nav ul{
