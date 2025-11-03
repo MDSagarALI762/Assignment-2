@@ -27,6 +27,7 @@ height: 460px;
  .digit-area{margin-top: 40px;
     display: flex;
 flex-direction: column;
+text-align: center;
 align-items: center;
 gap: 40px;}
 .digit{color: #06C167;
